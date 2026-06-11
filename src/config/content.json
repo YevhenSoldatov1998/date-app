@@ -1,0 +1,60 @@
+{
+  "telegram": {
+    "botToken": "YOUR_BOT_TOKEN",
+    "chatId": "YOUR_CHAT_ID"
+  },
+
+  "screen1": {
+    "emoji": "🌸",
+    "question": "Підеш зі мною на побачення?",
+    "yesLabel": "Так ♥",
+    "noLabel": "Ні 🙈"
+  },
+
+  "screen2": {
+    "emoji": "🥹",
+    "title": "Зачекай, ти дійсно сказала ТАК??",
+    "subtitle": "Я вже майже змирився з відмовою 😅",
+    "continueLabel": "Ну окей, далі →"
+  },
+
+  "screen3": {
+    "emoji": "📅",
+    "title": "Коли ти вільна?",
+    "dayLabel": "Оберіть день 📅",
+    "timeLabel": "Котра година? ⏰",
+    "timePlaceholder": "Обрати час...",
+    "submitLabel": "Встановити побачення ♥",
+    "times": [
+      "09:00", "10:00", "11:00", "12:00", "13:00",
+      "14:00", "15:00", "16:00", "17:00", "18:00",
+      "19:00", "20:00", "21:00"
+    ],
+    "validation": {
+      "dateRequired": "Будь ласка, оберіть дату",
+      "datePast": "Обери майбутню дату 😏",
+      "timeRequired": "Будь ласка, оберіть час"
+    }
+  },
+
+  "screen4": {
+    "emoji": "✨",
+    "title": "Що відчуваємо?",
+    "subtitle": "обери своє",
+    "submitLabel": "Поїхали! →",
+    "activities": [
+      { "id": "coffee", "emoji": "☕", "label": "Кава" },
+      { "id": "nature", "emoji": "🌲", "label": "Природа" },
+      { "id": "sauna", "emoji": "🧖", "label": "Сауна" },
+      { "id": "movie", "emoji": "🎬", "label": "Кіно" },
+      { "id": "bowling", "emoji": "🎳", "label": "Активність" },
+      { "id": "dinner", "emoji": "🍽️", "label": "Вечеря" }
+    ]
+  },
+
+  "screen5": {
+    "title": "Радий буду тебе чекати",
+    "subtitle": "Вже рахую години ♥",
+    "telegramMessage": "🌸 Побачення підтверджено!\n📅 Дата: {date}\n⏰ Час: {time}\n{activity}\n\nЧекаю з нетерпінням! 💕"
+  }
+}
